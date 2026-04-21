@@ -1,0 +1,62 @@
+name: Monthly Pricing Refresh
+
+on:
+  schedule:
+    - cron: "0 12 1 * *"   # noon UTC on the 1st of each month
+  workflow_dispatch:         # allow manual on-demand runs
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        working-directory: scripts
+        run: npm ci
+
+      - name: Run pricing refresh
+        working-directory: scripts
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          COST_CAP_USD: "5.00"
+        run: npx ts-node refresh.ts
+
+      - name: Check for changes
+        id: diff
+        run: |
+          git diff --quiet prices.json && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Open PR with updated prices
+        if: steps.diff.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          DATE=$(date +%Y-%m-%d)
+          BRANCH="pricing-refresh-${DATE}"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$BRANCH"
+          git add prices.json
+          git commit -m "chore: automated pricing refresh ${DATE}"
+          git push origin "$BRANCH"
+          gh pr create \
+            --base main \
+            --head "$BRANCH" \
+            --assignee brittanyarima \
+            --title "Pricing refresh ${DATE}" \
+            --body "$(cat /tmp/pr_body.md)"
