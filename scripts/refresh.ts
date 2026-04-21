@@ -127,12 +127,24 @@ async function main() {
   const diffs: DiffRow[] = [];
   const needsHumanResearch: string[] = [];
 
+  const todayStr = today();
+
   for (const item of data.items) {
     if (totalCost >= COST_CAP_USD) {
       throw new Error(
         `API cost cap of $${COST_CAP_USD} reached after ${updated.length} items. ` +
           `Remaining items were not refreshed.`
       );
+    }
+
+    // Idempotency: if this item was already verified today, skip the API call.
+    // Makes same-day re-runs (e.g. a manual workflow_dispatch after the cron)
+    // effectively free.
+    const lastVerifiedDay = item.lastVerified.split("T")[0];
+    if (lastVerifiedDay === todayStr) {
+      console.log(`Skipping "${item.name}" — already verified today.`);
+      updated.push(item);
+      continue;
     }
 
     console.log(`Researching: ${item.name}…`);

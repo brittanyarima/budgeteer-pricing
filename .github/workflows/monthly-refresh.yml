@@ -5,6 +5,10 @@ on:
     - cron: "0 12 1 * *"   # noon UTC on the 1st of each month
   workflow_dispatch:         # allow manual on-demand runs
 
+concurrency:
+  group: monthly-refresh
+  cancel-in-progress: false
+
 permissions:
   contents: write
   pull-requests: write
