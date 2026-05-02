@@ -1,6 +1,6 @@
 {
-  "version": "2026.04.30",
-  "lastUpdated": "2026-04-30T00:00:00Z",
+  "version": "2026.05.02",
+  "lastUpdated": "2026-05-02T00:00:00Z",
   "source": "curated",
   "items": [
     {
@@ -10,11 +10,11 @@
       "icon": "Ticket",
       "location": "Park West",
       "tier": "standard",
-      "minPrice": 94.0,
-      "maxPrice": 119.0,
-      "averagePrice": 106.0,
+      "minPrice": 104.0,
+      "maxPrice": 224.0,
+      "averagePrice": 155.0,
       "notes": "Date-based pricing; peak days higher",
-      "lastVerified": "2026-04-20T00:00:00Z"
+      "lastVerified": "2026-05-02T00:00:00Z"
     },
     {
       "id": "066ddca0-087b-4037-b097-03c5753166bc",
@@ -23,11 +23,11 @@
       "icon": "MultiParkPass",
       "location": "Both Parks",
       "tier": "standard",
-      "minPrice": 60.0,
-      "maxPrice": 65.0,
-      "averagePrice": 62.0,
+      "minPrice": 80.0,
+      "maxPrice": 85.0,
+      "averagePrice": 82.0,
       "notes": "Add-on to base ticket for same-day park hopping",
-      "lastVerified": "2026-04-20T00:00:00Z"
+      "lastVerified": "2026-05-02T00:00:00Z"
     },
     {
       "id": "a6eaf233-e8e3-4e61-b3f4-9def04f1b343",
@@ -36,11 +36,11 @@
       "icon": "Ticket",
       "location": "Park East",
       "tier": "standard",
-      "minPrice": 126.0,
-      "maxPrice": 189.0,
-      "averagePrice": 150.0,
+      "minPrice": 139.0,
+      "maxPrice": 199.0,
+      "averagePrice": 169.0,
       "notes": "Date-based pricing; peak days significantly higher",
-      "lastVerified": "2026-04-20T00:00:00Z"
+      "lastVerified": "2026-05-02T00:00:00Z"
     },
     {
       "id": "4da7a064-962f-4ed7-9182-4b37a2e34f13",
@@ -49,10 +49,10 @@
       "icon": "WishLamp",
       "location": "Park West",
       "tier": "standard",
-      "minPrice": 25.0,
-      "maxPrice": 35.0,
+      "minPrice": 15.0,
+      "maxPrice": 45.0,
       "averagePrice": 30.0,
-      "lastVerified": "2026-04-20T00:00:00Z"
+      "lastVerified": "2026-05-02T00:00:00Z"
     },
     {
       "id": "24a0c314-6e51-4dd1-8eb3-69dace37ae92",
@@ -61,10 +61,10 @@
       "icon": "WishLamp",
       "location": "Park East",
       "tier": "standard",
-      "minPrice": 15.0,
-      "maxPrice": 25.0,
-      "averagePrice": 20.0,
-      "lastVerified": "2026-04-20T00:00:00Z"
+      "minPrice": 19.0,
+      "maxPrice": 37.0,
+      "averagePrice": 28.0,
+      "lastVerified": "2026-05-02T00:00:00Z"
     },
     {
       "id": "a96500d8-5c3b-4f04-9f96-9789810be3c8",
@@ -76,7 +76,7 @@
       "minPrice": 15.0,
       "maxPrice": 30.0,
       "averagePrice": 20.0,
-      "lastVerified": "2026-04-20T00:00:00Z"
+      "lastVerified": "2026-05-02T00:00:00Z"
     },
     {
       "id": "a11cb69e-5629-4ed5-9892-3571f4ddd551",
@@ -85,10 +85,10 @@
       "icon": "PreferredParking",
       "location": "Park East",
       "tier": "standard",
-      "minPrice": 48.0,
-      "maxPrice": 55.0,
-      "averagePrice": 50.0,
-      "lastVerified": "2026-04-20T00:00:00Z"
+      "minPrice": 50.0,
+      "maxPrice": 60.0,
+      "averagePrice": 55.0,
+      "lastVerified": "2026-05-02T00:00:00Z"
     },
     {
       "id": "889d5979-3ea8-4bca-a47c-69e0b417563b",
@@ -97,10 +97,10 @@
       "icon": "StandardParking",
       "location": "Park East",
       "tier": "standard",
-      "minPrice": 25.0,
-      "maxPrice": 30.0,
-      "averagePrice": 27.0,
-      "lastVerified": "2026-04-20T00:00:00Z"
+      "minPrice": 35.0,
+      "maxPrice": 35.0,
+      "averagePrice": 35.0,
+      "lastVerified": "2026-05-02T00:00:00Z"
     },
     {
       "id": "ef34c252-8ced-4f1d-b87b-9231f929230c",
@@ -109,10 +109,10 @@
       "icon": "OversizedParking",
       "location": "Park East",
       "tier": "standard",
-      "minPrice": 30.0,
-      "maxPrice": 35.0,
-      "averagePrice": 32.0,
-      "lastVerified": "2026-04-20T00:00:00Z"
+      "minPrice": 40.0,
+      "maxPrice": 40.0,
+      "averagePrice": 40.0,
+      "lastVerified": "2026-05-02T00:00:00Z"
     },
     {
       "id": "a427876e-ac46-4dee-9ed9-e2f240b37b3d",
@@ -121,10 +121,10 @@
       "icon": "PreferredParking",
       "location": "Park West",
       "tier": "standard",
-      "minPrice": 50.0,
+      "minPrice": 60.0,
       "maxPrice": 60.0,
-      "averagePrice": 55.0,
-      "lastVerified": "2026-04-20T00:00:00Z"
+      "averagePrice": 60.0,
+      "lastVerified": "2026-05-02T00:00:00Z"
     },
     {
       "id": "7b181ff7-af73-4ccb-b30b-45a19df8d07c",
@@ -133,10 +133,10 @@
       "icon": "StandardParking",
       "location": "Park West",
       "tier": "standard",
-      "minPrice": 30.0,
-      "maxPrice": 35.0,
-      "averagePrice": 32.0,
-      "lastVerified": "2026-04-20T00:00:00Z"
+      "minPrice": 40.0,
+      "maxPrice": 40.0,
+      "averagePrice": 40.0,
+      "lastVerified": "2026-05-02T00:00:00Z"
     },
     {
       "id": "1bc8a095-d1e2-4db9-8dff-cfc616b82ffd",
@@ -145,10 +145,10 @@
       "icon": "OversizedParking",
       "location": "Park West",
       "tier": "standard",
-      "minPrice": 35.0,
-      "maxPrice": 40.0,
-      "averagePrice": 37.0,
-      "lastVerified": "2026-04-20T00:00:00Z"
+      "minPrice": 45.0,
+      "maxPrice": 50.0,
+      "averagePrice": 47.0,
+      "lastVerified": "2026-05-02T00:00:00Z"
     },
     {
       "id": "6c5a040f-9232-42ff-9a26-1d5cbc86a604",
@@ -161,7 +161,7 @@
       "maxPrice": 18.0,
       "averagePrice": 15.0,
       "notes": "Typical counter-service entr\u00e9e per person",
-      "lastVerified": "2026-04-20T00:00:00Z"
+      "lastVerified": "2026-05-02T00:00:00Z"
     },
     {
       "id": "9e74ba3e-f632-4edf-9c75-5dcb9a67015b",
@@ -174,7 +174,7 @@
       "maxPrice": 65.0,
       "averagePrice": 48.0,
       "notes": "Per person; excludes beverages and gratuity",
-      "lastVerified": "2026-04-20T00:00:00Z"
+      "lastVerified": "2026-05-02T00:00:00Z"
     },
     {
       "id": "c0106c5c-95e9-4d4d-8df8-d98c5aa454de",
@@ -187,7 +187,7 @@
       "maxPrice": 10.0,
       "averagePrice": 8.0,
       "notes": "Kids' counter-service combo",
-      "lastVerified": "2026-04-20T00:00:00Z"
+      "lastVerified": "2026-05-02T00:00:00Z"
     },
     {
       "id": "15652e09-85b2-4a51-9b1d-4efebf927ef8",
@@ -200,7 +200,7 @@
       "maxPrice": 35.0,
       "averagePrice": 27.0,
       "notes": "Per person entr\u00e9e; excludes beverages and gratuity",
-      "lastVerified": "2026-04-20T00:00:00Z"
+      "lastVerified": "2026-05-02T00:00:00Z"
     },
     {
       "id": "44b643a2-9d4a-4195-a933-eb3a585e6851",
@@ -212,7 +212,7 @@
       "minPrice": 10.0,
       "maxPrice": 16.0,
       "averagePrice": 13.0,
-      "lastVerified": "2026-04-20T00:00:00Z"
+      "lastVerified": "2026-05-02T00:00:00Z"
     },
     {
       "id": "b8924a95-da53-4538-b9a1-4ed9038f8ca8",
@@ -224,7 +224,7 @@
       "minPrice": 7.0,
       "maxPrice": 12.0,
       "averagePrice": 8.0,
-      "lastVerified": "2026-04-20T00:00:00Z"
+      "lastVerified": "2026-05-02T00:00:00Z"
     },
     {
       "id": "2cd92614-8b85-448d-bfb8-e8e788439b1a",
@@ -236,7 +236,7 @@
       "minPrice": 4.0,
       "maxPrice": 6.0,
       "averagePrice": 5.0,
-      "lastVerified": "2026-04-20T00:00:00Z"
+      "lastVerified": "2026-05-02T00:00:00Z"
     },
     {
       "id": "4a9cd12b-935d-4264-a07b-c57db5fddb81",
@@ -248,7 +248,7 @@
       "minPrice": 4.0,
       "maxPrice": 6.0,
       "averagePrice": 5.0,
-      "lastVerified": "2026-04-20T00:00:00Z"
+      "lastVerified": "2026-05-02T00:00:00Z"
     },
     {
       "id": "37b4d0d5-37ed-49a3-af76-f4b3b053a61b",
@@ -260,7 +260,7 @@
       "minPrice": 7.0,
       "maxPrice": 10.0,
       "averagePrice": 8.0,
-      "lastVerified": "2026-04-20T00:00:00Z"
+      "lastVerified": "2026-05-02T00:00:00Z"
     },
     {
       "id": "90e8d929-e70b-4fda-b775-c2cc7065c089",
@@ -272,7 +272,7 @@
       "minPrice": 7.0,
       "maxPrice": 10.0,
       "averagePrice": 8.0,
-      "lastVerified": "2026-04-20T00:00:00Z"
+      "lastVerified": "2026-05-02T00:00:00Z"
     },
     {
       "id": "c3482dd0-1be2-43be-ab9c-6b4f44a3602d",
@@ -284,7 +284,7 @@
       "minPrice": 5.0,
       "maxPrice": 7.0,
       "averagePrice": 6.0,
-      "lastVerified": "2026-04-20T00:00:00Z"
+      "lastVerified": "2026-05-02T00:00:00Z"
     },
     {
       "id": "9edd070f-1c81-4b4d-bf17-3338ab744c68",
@@ -296,7 +296,7 @@
       "minPrice": 12.0,
       "maxPrice": 15.0,
       "averagePrice": 13.0,
-      "lastVerified": "2026-04-20T00:00:00Z"
+      "lastVerified": "2026-05-02T00:00:00Z"
     },
     {
       "id": "fb8303c6-9430-45c7-b75e-4dbe37166b79",
@@ -308,7 +308,7 @@
       "minPrice": 4.0,
       "maxPrice": 6.0,
       "averagePrice": 5.0,
-      "lastVerified": "2026-04-20T00:00:00Z"
+      "lastVerified": "2026-05-02T00:00:00Z"
     },
     {
       "id": "0ca1d673-155d-4d66-9cc2-5c83e2717feb",
@@ -320,7 +320,7 @@
       "minPrice": 5.0,
       "maxPrice": 7.0,
       "averagePrice": 6.0,
-      "lastVerified": "2026-04-20T00:00:00Z"
+      "lastVerified": "2026-05-02T00:00:00Z"
     },
     {
       "id": "5bb52bca-12c8-4493-aaae-80a88cb5c122",
@@ -333,7 +333,7 @@
       "maxPrice": 9.0,
       "averagePrice": 8.0,
       "notes": "Galaxy's Edge exclusive",
-      "lastVerified": "2026-04-20T00:00:00Z"
+      "lastVerified": "2026-05-02T00:00:00Z"
     },
     {
       "id": "d495f8cb-77a5-4c98-8d5f-348adeb6254e",
@@ -346,7 +346,7 @@
       "maxPrice": 7.0,
       "averagePrice": 6.0,
       "notes": "Adventureland classic",
-      "lastVerified": "2026-04-20T00:00:00Z"
+      "lastVerified": "2026-05-02T00:00:00Z"
     },
     {
       "id": "8cd7f89f-eb3f-4af9-b22b-ec88255e5d30",
@@ -358,7 +358,7 @@
       "minPrice": 9.0,
       "maxPrice": 14.0,
       "averagePrice": 11.0,
-      "lastVerified": "2026-04-20T00:00:00Z"
+      "lastVerified": "2026-05-02T00:00:00Z"
     },
     {
       "id": "95c77201-5717-4eef-bfde-dfbc201f33d3",
@@ -370,7 +370,7 @@
       "minPrice": 12.0,
       "maxPrice": 18.0,
       "averagePrice": 15.0,
-      "lastVerified": "2026-04-20T00:00:00Z"
+      "lastVerified": "2026-05-02T00:00:00Z"
     },
     {
       "id": "258951f2-a5f1-4a7e-84cc-f2a848721dc4",
@@ -382,7 +382,7 @@
       "minPrice": 75.0,
       "maxPrice": 90.0,
       "averagePrice": 80.0,
-      "lastVerified": "2026-04-20T00:00:00Z"
+      "lastVerified": "2026-05-02T00:00:00Z"
     },
     {
       "id": "dd6dd8cd-496d-4696-a598-fdeeb530dca2",
@@ -395,7 +395,7 @@
       "maxPrice": 45.0,
       "averagePrice": 30.0,
       "notes": "Range reflects standard to premium/character styles",
-      "lastVerified": "2026-04-20T00:00:00Z"
+      "lastVerified": "2026-05-02T00:00:00Z"
     },
     {
       "id": "dfe5b693-ff7b-4358-8f6c-af5bc6f9edae",
@@ -407,7 +407,7 @@
       "minPrice": 55.0,
       "maxPrice": 65.0,
       "averagePrice": 58.0,
-      "lastVerified": "2026-04-20T00:00:00Z"
+      "lastVerified": "2026-05-02T00:00:00Z"
     },
     {
       "id": "0812e608-100c-4ebd-9da6-003a0066aaf1",
@@ -419,7 +419,7 @@
       "minPrice": 22.0,
       "maxPrice": 30.0,
       "averagePrice": 25.0,
-      "lastVerified": "2026-04-20T00:00:00Z"
+      "lastVerified": "2026-05-02T00:00:00Z"
     },
     {
       "id": "10e5f0f6-a359-4c5e-b271-1133269f739c",
@@ -431,7 +431,7 @@
       "minPrice": 20.0,
       "maxPrice": 30.0,
       "averagePrice": 25.0,
-      "lastVerified": "2026-04-20T00:00:00Z"
+      "lastVerified": "2026-05-02T00:00:00Z"
     },
     {
       "id": "2e5aa2ca-40cb-4aff-bd92-ce5d8230ed82",
@@ -443,7 +443,7 @@
       "minPrice": 15.0,
       "maxPrice": 22.0,
       "averagePrice": 18.0,
-      "lastVerified": "2026-04-20T00:00:00Z"
+      "lastVerified": "2026-05-02T00:00:00Z"
     },
     {
       "id": "66ed80e0-0164-486e-8b36-889ea37096e7",
@@ -455,7 +455,7 @@
       "minPrice": 12.0,
       "maxPrice": 18.0,
       "averagePrice": 15.0,
-      "lastVerified": "2026-04-20T00:00:00Z"
+      "lastVerified": "2026-05-02T00:00:00Z"
     },
     {
       "id": "9031805d-267a-4557-9b0f-3095dbb3245c",
@@ -467,7 +467,7 @@
       "minPrice": 80.0,
       "maxPrice": 95.0,
       "averagePrice": 85.0,
-      "lastVerified": "2026-04-20T00:00:00Z"
+      "lastVerified": "2026-05-02T00:00:00Z"
     },
     {
       "id": "65c4f586-2df2-48b6-9120-9c001c9155d0",
@@ -476,11 +476,11 @@
       "icon": "LaserSword",
       "location": "Park East",
       "tier": "standard",
-      "minPrice": 180.0,
-      "maxPrice": 220.0,
-      "averagePrice": 200.0,
+      "minPrice": 270.0,
+      "maxPrice": 280.0,
+      "averagePrice": 275.0,
       "notes": "Galaxy's Edge interactive experience",
-      "lastVerified": "2026-04-20T00:00:00Z"
+      "lastVerified": "2026-05-02T00:00:00Z"
     },
     {
       "id": "df915133-8816-4f03-8008-7284cb35b79d",
@@ -489,11 +489,11 @@
       "icon": "BuildABot",
       "location": "Park East",
       "tier": "standard",
-      "minPrice": 110.0,
+      "minPrice": 125.0,
       "maxPrice": 135.0,
-      "averagePrice": 120.0,
+      "averagePrice": 130.0,
       "notes": "Galaxy's Edge Droid Depot experience",
-      "lastVerified": "2026-04-20T00:00:00Z"
+      "lastVerified": "2026-05-02T00:00:00Z"
     },
     {
       "id": "f007f076-fc27-411e-b871-5aa492925f63",
@@ -505,7 +505,7 @@
       "minPrice": 12.0,
       "maxPrice": 18.0,
       "averagePrice": 15.0,
-      "lastVerified": "2026-04-20T00:00:00Z"
+      "lastVerified": "2026-05-02T00:00:00Z"
     },
     {
       "id": "b5203391-85d2-4ce6-a68c-8718583d9294",
@@ -517,7 +517,7 @@
       "minPrice": 10.0,
       "maxPrice": 15.0,
       "averagePrice": 12.0,
-      "lastVerified": "2026-04-20T00:00:00Z"
+      "lastVerified": "2026-05-02T00:00:00Z"
     },
     {
       "id": "cde7f8c3-0a64-4473-a516-848755a8fbb8",
@@ -529,7 +529,7 @@
       "minPrice": 10.0,
       "maxPrice": 15.0,
       "averagePrice": 11.0,
-      "lastVerified": "2026-04-20T00:00:00Z"
+      "lastVerified": "2026-05-02T00:00:00Z"
     },
     {
       "id": "cdfd11c4-f515-4f33-8d97-bfc6deccfe1e",
@@ -542,7 +542,7 @@
       "maxPrice": 300.0,
       "averagePrice": 225.0,
       "notes": "Peak dates and holidays trend higher",
-      "lastVerified": "2026-04-30T00:00:00Z",
+      "lastVerified": "2026-05-02T00:00:00Z",
       "scope": "perNight",
       "ageBand": "any"
     },
@@ -557,7 +557,7 @@
       "maxPrice": 500.0,
       "averagePrice": 370.0,
       "notes": "Peak dates and holidays trend higher",
-      "lastVerified": "2026-04-30T00:00:00Z",
+      "lastVerified": "2026-05-02T00:00:00Z",
       "scope": "perNight",
       "ageBand": "any"
     },
@@ -572,7 +572,7 @@
       "maxPrice": 1200.0,
       "averagePrice": 750.0,
       "notes": "Wide range; suites and view rooms top the band",
-      "lastVerified": "2026-04-30T00:00:00Z",
+      "lastVerified": "2026-05-02T00:00:00Z",
       "scope": "perNight",
       "ageBand": "any"
     },
@@ -584,10 +584,10 @@
       "location": "Both Parks",
       "tier": "standard",
       "minPrice": 0.0,
-      "maxPrice": 35.0,
-      "averagePrice": 25.0,
+      "maxPrice": 0.0,
+      "averagePrice": 0.0,
       "notes": "Some resorts include parking; tier-dependent",
-      "lastVerified": "2026-04-30T00:00:00Z",
+      "lastVerified": "2026-05-02T00:00:00Z",
       "scope": "perNight",
       "ageBand": "any",
       "isCommonlyForgotten": true
@@ -599,10 +599,10 @@
       "icon": "PreferredParking",
       "location": "Both Parks",
       "tier": "deluxe",
-      "minPrice": 40.0,
-      "maxPrice": 50.0,
-      "averagePrice": 45.0,
-      "lastVerified": "2026-04-30T00:00:00Z",
+      "minPrice": 33.0,
+      "maxPrice": 45.0,
+      "averagePrice": 42.0,
+      "lastVerified": "2026-05-02T00:00:00Z",
       "scope": "perNight",
       "ageBand": "any",
       "isCommonlyForgotten": true
@@ -618,7 +618,7 @@
       "maxPrice": 112.0,
       "averagePrice": 100.0,
       "notes": "Ages 3-9; under 3 typically free",
-      "lastVerified": "2026-04-30T00:00:00Z",
+      "lastVerified": "2026-05-02T00:00:00Z",
       "scope": "perPerson",
       "ageBand": "child"
     },
@@ -629,11 +629,11 @@
       "icon": "Ticket",
       "location": "Park East",
       "tier": "standard",
-      "minPrice": 120.0,
-      "maxPrice": 179.0,
-      "averagePrice": 142.0,
+      "minPrice": 134.0,
+      "maxPrice": 189.0,
+      "averagePrice": 160.0,
       "notes": "Ages 3-9; under 3 typically free",
-      "lastVerified": "2026-04-30T00:00:00Z",
+      "lastVerified": "2026-05-02T00:00:00Z",
       "scope": "perPerson",
       "ageBand": "child"
     },
@@ -648,7 +648,7 @@
       "maxPrice": 249.0,
       "averagePrice": 160.0,
       "notes": "Seasonal after-hours and holiday events; sold separately from daily admission",
-      "lastVerified": "2026-04-30T00:00:00Z",
+      "lastVerified": "2026-05-02T00:00:00Z",
       "scope": "perPerson",
       "ageBand": "any"
     },
@@ -663,7 +663,7 @@
       "maxPrice": 199.0,
       "averagePrice": 185.0,
       "notes": "Unlimited park-photographer downloads for the trip",
-      "lastVerified": "2026-04-30T00:00:00Z",
+      "lastVerified": "2026-05-02T00:00:00Z",
       "scope": "perTrip",
       "ageBand": "any"
     },
@@ -674,11 +674,11 @@
       "icon": "TableService",
       "location": "Both Parks",
       "tier": "tableService",
-      "minPrice": 45.0,
-      "maxPrice": 85.0,
-      "averagePrice": 60.0,
+      "minPrice": 49.0,
+      "maxPrice": 88.0,
+      "averagePrice": 62.0,
       "notes": "Pre-fixe meal with costumed character meet-and-greets",
-      "lastVerified": "2026-04-30T00:00:00Z",
+      "lastVerified": "2026-05-02T00:00:00Z",
       "scope": "perPerson",
       "ageBand": "adult"
     },
@@ -689,11 +689,11 @@
       "icon": "KidMeal",
       "location": "Both Parks",
       "tier": "tableService",
-      "minPrice": 25.0,
-      "maxPrice": 45.0,
-      "averagePrice": 33.0,
+      "minPrice": 33.0,
+      "maxPrice": 52.0,
+      "averagePrice": 40.0,
       "notes": "Pre-fixe meal with costumed character meet-and-greets",
-      "lastVerified": "2026-04-30T00:00:00Z",
+      "lastVerified": "2026-05-02T00:00:00Z",
       "scope": "perPerson",
       "ageBand": "child"
     },
@@ -708,7 +708,7 @@
       "maxPrice": 35.0,
       "averagePrice": 30.0,
       "notes": "Includes refills for the day or trip, varies by venue",
-      "lastVerified": "2026-04-30T00:00:00Z",
+      "lastVerified": "2026-05-02T00:00:00Z",
       "scope": "perTrip",
       "ageBand": "any"
     },
@@ -723,7 +723,7 @@
       "maxPrice": 25.0,
       "averagePrice": 23.0,
       "notes": "Refills at on-site resort drink stations for the length of stay",
-      "lastVerified": "2026-04-30T00:00:00Z",
+      "lastVerified": "2026-05-02T00:00:00Z",
       "scope": "perTrip",
       "ageBand": "any"
     },
@@ -737,7 +737,7 @@
       "minPrice": 5.0,
       "maxPrice": 10.0,
       "averagePrice": 7.0,
-      "lastVerified": "2026-04-30T00:00:00Z",
+      "lastVerified": "2026-05-02T00:00:00Z",
       "scope": "perDay",
       "ageBand": "any"
     },
@@ -751,7 +751,7 @@
       "minPrice": 12.0,
       "maxPrice": 20.0,
       "averagePrice": 16.0,
-      "lastVerified": "2026-04-30T00:00:00Z",
+      "lastVerified": "2026-05-02T00:00:00Z",
       "scope": "perPersonPerDay",
       "ageBand": "any"
     },
@@ -765,7 +765,7 @@
       "minPrice": 20.0,
       "maxPrice": 60.0,
       "averagePrice": 35.0,
-      "lastVerified": "2026-04-30T00:00:00Z",
+      "lastVerified": "2026-05-02T00:00:00Z",
       "scope": "perTrip",
       "ageBand": "any"
     },
@@ -780,7 +780,7 @@
       "maxPrice": 50.0,
       "averagePrice": 40.0,
       "notes": "Wearable used for room entry, payments, and ride photos",
-      "lastVerified": "2026-04-30T00:00:00Z",
+      "lastVerified": "2026-05-02T00:00:00Z",
       "scope": "perPerson",
       "ageBand": "any"
     },
@@ -791,11 +791,11 @@
       "icon": "Silhouette",
       "location": "Both Parks",
       "tier": "deluxe",
-      "minPrice": 80.0,
-      "maxPrice": 455.0,
-      "averagePrice": 250.0,
+      "minPrice": 120.0,
+      "maxPrice": 230.0,
+      "averagePrice": 175.0,
       "notes": "Hair, makeup, costume packages vary widely",
-      "lastVerified": "2026-04-30T00:00:00Z",
+      "lastVerified": "2026-05-02T00:00:00Z",
       "scope": "perPerson",
       "ageBand": "child"
     },
@@ -809,7 +809,7 @@
       "minPrice": 40.0,
       "maxPrice": 70.0,
       "averagePrice": 55.0,
-      "lastVerified": "2026-04-30T00:00:00Z",
+      "lastVerified": "2026-05-02T00:00:00Z",
       "scope": "perPerson",
       "ageBand": "child"
     },
@@ -823,7 +823,7 @@
       "minPrice": 15.0,
       "maxPrice": 22.0,
       "averagePrice": 18.0,
-      "lastVerified": "2026-04-30T00:00:00Z",
+      "lastVerified": "2026-05-02T00:00:00Z",
       "scope": "perTrip",
       "ageBand": "any"
     },
@@ -837,7 +837,7 @@
       "minPrice": 15.0,
       "maxPrice": 22.0,
       "averagePrice": 18.0,
-      "lastVerified": "2026-04-30T00:00:00Z",
+      "lastVerified": "2026-05-02T00:00:00Z",
       "scope": "perDay",
       "ageBand": "any"
     },
@@ -851,7 +851,7 @@
       "minPrice": 31.0,
       "maxPrice": 42.0,
       "averagePrice": 36.0,
-      "lastVerified": "2026-04-30T00:00:00Z",
+      "lastVerified": "2026-05-02T00:00:00Z",
       "scope": "perDay",
       "ageBand": "any"
     },
@@ -863,10 +863,10 @@
       "location": "Both Parks",
       "tier": "standard",
       "minPrice": 12.0,
-      "maxPrice": 70.0,
-      "averagePrice": 40.0,
+      "maxPrice": 65.0,
+      "averagePrice": 38.0,
       "notes": "Wheelchairs lower band; ECVs higher; off-site outfitters often cheaper than in-park",
-      "lastVerified": "2026-04-30T00:00:00Z",
+      "lastVerified": "2026-05-02T00:00:00Z",
       "scope": "perDay",
       "ageBand": "any"
     },
@@ -880,7 +880,7 @@
       "minPrice": 10.0,
       "maxPrice": 15.0,
       "averagePrice": 12.0,
-      "lastVerified": "2026-04-30T00:00:00Z",
+      "lastVerified": "2026-05-02T00:00:00Z",
       "scope": "perTrip",
       "ageBand": "any",
       "isCommonlyForgotten": true
@@ -895,7 +895,7 @@
       "minPrice": 15.0,
       "maxPrice": 25.0,
       "averagePrice": 20.0,
-      "lastVerified": "2026-04-30T00:00:00Z",
+      "lastVerified": "2026-05-02T00:00:00Z",
       "scope": "perTrip",
       "ageBand": "any",
       "isCommonlyForgotten": true
@@ -910,7 +910,7 @@
       "minPrice": 5.0,
       "maxPrice": 10.0,
       "averagePrice": 7.0,
-      "lastVerified": "2026-04-30T00:00:00Z",
+      "lastVerified": "2026-05-02T00:00:00Z",
       "scope": "perTrip",
       "ageBand": "any",
       "isCommonlyForgotten": true
