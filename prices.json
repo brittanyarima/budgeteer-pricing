@@ -327,7 +327,7 @@
       "name": "Specialty Milk Drink (Blue & Green)",
       "category": "Food",
       "icon": "SpecialtyDrink",
-      "location": "Park East",
+      "location": "Both Parks",
       "tier": "quickService",
       "minPrice": 7.0,
       "maxPrice": 9.0,
@@ -471,7 +471,7 @@
     },
     {
       "id": "65c4f586-2df2-48b6-9120-9c001c9155d0",
-      "name": "Build a Laser Sword",
+      "name": "World - Build a Laser Sword",
       "category": "Souvenirs",
       "icon": "LaserSword",
       "location": "Park East",
@@ -483,8 +483,21 @@
       "lastVerified": "2026-05-02T00:00:00Z"
     },
     {
+      "id": "537b445a-db6f-4b4e-b9df-510d599c3a32",
+      "name": "Land - Build a Laser Sword",
+      "category": "Souvenirs",
+      "icon": "LaserSword",
+      "location": "Park West",
+      "tier": "standard",
+      "minPrice": 245.0,
+      "maxPrice": 255.0,
+      "averagePrice": 250.0,
+      "notes": "Galaxy's Edge interactive experience",
+      "lastVerified": "2026-05-02T00:00:00Z"
+    },
+    {
       "id": "df915133-8816-4f03-8008-7284cb35b79d",
-      "name": "Build a Robot",
+      "name": "World - Build a Robot",
       "category": "Souvenirs",
       "icon": "BuildABot",
       "location": "Park East",
@@ -492,6 +505,19 @@
       "minPrice": 125.0,
       "maxPrice": 135.0,
       "averagePrice": 130.0,
+      "notes": "Galaxy's Edge Droid Depot experience",
+      "lastVerified": "2026-05-02T00:00:00Z"
+    },
+    {
+      "id": "3496fd29-89ac-4245-9c7f-ab78a32189b5",
+      "name": "Land - Build a Robot",
+      "category": "Souvenirs",
+      "icon": "BuildABot",
+      "location": "Park West",
+      "tier": "standard",
+      "minPrice": 115.0,
+      "maxPrice": 125.0,
+      "averagePrice": 120.0,
       "notes": "Galaxy's Edge Droid Depot experience",
       "lastVerified": "2026-05-02T00:00:00Z"
     },
